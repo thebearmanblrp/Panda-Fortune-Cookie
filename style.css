@@ -3,23 +3,16 @@ input[type="checkbox"] {
     display: block;
     width: 720px;
     height: 880px;
+          animation: wiggle infinite 3s alternate;
 }
 input[type="checkbox"]:checked {
     content: url('https://i.imgur.com/iF6NGzT.png');
+    animation: none
 }
 .native-hidden {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-      animation: wiggle infinite 3s alternate;
-}
-
-.native-hidden:hover {
-	-webkit-animation:none;
-	animation:none;	
-	transform: translate(0px,3px);
-	-ms-transform:translate(0px,3px);
-	-webkit-transform:translate(0px,3px);	
 }
 
 @keyframes wiggle {
