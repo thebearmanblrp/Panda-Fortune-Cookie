@@ -14,6 +14,14 @@ input[type="checkbox"]:checked {
       animation: wiggle infinite 3s alternate;
 }
 
+.native-hidden:hover {
+	-webkit-animation:none;
+	animation:none;	
+	transform: translate(0px,3px);
+	-ms-transform:translate(0px,3px);
+	-webkit-transform:translate(0px,3px);	
+}
+
 @keyframes wiggle {
   0% { transform: rotate(0deg); }
   25% { transform: rotate(-3deg); }
