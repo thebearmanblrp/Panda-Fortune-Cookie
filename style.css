@@ -1,8 +1,8 @@
 input[type="checkbox"] {
     content: url('https://i.imgur.com/CJwE9N9.png');
     display: block;
-    width: 360px;
-    height: 440px;
+    width: 720px;
+    height: 880px;
 }
 input[type="checkbox"]:checked {
     content: url('https://i.imgur.com/iF6NGzT.png');
