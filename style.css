@@ -7,7 +7,7 @@ input[type="checkbox"] {
 }
 input[type="checkbox"]:checked {
     content: url('https://i.imgur.com/iF6NGzT.png');
-    animation: none
+    animation: none;
 }
 .native-hidden {
     -webkit-appearance: none;
